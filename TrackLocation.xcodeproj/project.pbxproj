@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B171A6220BD105B00FC7E5F /* Tracklocation_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B171A6120BD105B00FC7E5F /* Tracklocation_VC.swift */; };
+		0B171A6420BD223700FC7E5F /* AddGeofencing_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B171A6320BD223700FC7E5F /* AddGeofencing_VC.swift */; };
+		0B171A6720BD242100FC7E5F /* CurrentLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B171A6620BD242100FC7E5F /* CurrentLocation@2x.png */; };
+		0B171A6920BD267A00FC7E5F /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B171A6820BD267A00FC7E5F /* point.png */; };
+		0B171A6B20BD2BDF00FC7E5F /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B171A6A20BD2BDF00FC7E5F /* Geotification.swift */; };
+		0B401C5F20BBBC170031E6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C5D20BBBC170031E6BC /* Main.storyboard */; };
+		0B401C6120BBBC170031E6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C6020BBBC170031E6BC /* Assets.xcassets */; };
+		0B401C6420BBBC170031E6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C6220BBBC170031E6BC /* LaunchScreen.storyboard */; };
+		0B401C7620BBC02E0031E6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C7520BBC02E0031E6BC /* AppDelegate.swift */; };
+		0B401C7820BBC0600031E6BC /* Map_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C7720BBC0600031E6BC /* Map_VC.swift */; };
+		0B401C7E20BBDE5D0031E6BC /* TrackLocation_Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C7D20BBDE5D0031E6BC /* TrackLocation_Services.swift */; };
+		0B401C7F20BBF5170031E6BC /* PubNub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B401C8020BBF5170031E6BC /* PubNub.framework */; };
+		0B401C8220BC0B840031E6BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C8120BC0B830031E6BC /* GoogleService-Info.plist */; };
+		0B401C8520BC0DF30031E6BC /* CreateUser_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C8420BC0DF30031E6BC /* CreateUser_VC.swift */; };
+		0B401C8620BC11C10031E6BC /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B401C8720BC11C10031E6BC /* IQKeyboardManager.framework */; };
+		0B401C8820BC11C50031E6BC /* FTIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B401C8920BC11C50031E6BC /* FTIndicator.framework */; };
+		9B0DA06DF7520C0F512AEB2F /* Pods_TrackLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A483263EBDC3232C8E600D /* Pods_TrackLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B171A6120BD105B00FC7E5F /* Tracklocation_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracklocation_VC.swift; sourceTree = "<group>"; };
+		0B171A6320BD223700FC7E5F /* AddGeofencing_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGeofencing_VC.swift; sourceTree = "<group>"; };
+		0B171A6620BD242100FC7E5F /* CurrentLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CurrentLocation@2x.png"; sourceTree = "<group>"; };
+		0B171A6820BD267A00FC7E5F /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		0B171A6A20BD2BDF00FC7E5F /* Geotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
+		0B401C5620BBBC170031E6BC /* TrackLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B401C5E20BBBC170031E6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B401C6020BBBC170031E6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B401C6320BBBC170031E6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B401C6520BBBC170031E6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B401C7520BBC02E0031E6BC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B401C7720BBC0600031E6BC /* Map_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_VC.swift; sourceTree = "<group>"; };
+		0B401C7A20BBCD030031E6BC /* TrackLocation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackLocation-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B401C7C20BBD74D0031E6BC /* HyperTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HyperTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B401C7D20BBDE5D0031E6BC /* TrackLocation_Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLocation_Services.swift; sourceTree = "<group>"; };
+		0B401C8020BBF5170031E6BC /* PubNub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PubNub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B401C8120BC0B830031E6BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0B401C8420BC0DF30031E6BC /* CreateUser_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser_VC.swift; sourceTree = "<group>"; };
+		0B401C8720BC11C10031E6BC /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B401C8920BC11C50031E6BC /* FTIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FTIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A483263EBDC3232C8E600D /* Pods_TrackLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D4A2C3F2ACE2203ECEB186 /* Pods-TrackLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackLocation/Pods-TrackLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8ADCEAF1EC0623335984B1 /* Pods-TrackLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackLocation/Pods-TrackLocation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B401C5320BBBC170031E6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B401C8820BC11C50031E6BC /* FTIndicator.framework in Frameworks */,
+				0B401C8620BC11C10031E6BC /* IQKeyboardManager.framework in Frameworks */,
+				0B401C7F20BBF5170031E6BC /* PubNub.framework in Frameworks */,
+				9B0DA06DF7520C0F512AEB2F /* Pods_TrackLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B171A6520BD234700FC7E5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B171A6820BD267A00FC7E5F /* point.png */,
+				0B171A6620BD242100FC7E5F /* CurrentLocation@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B401C4D20BBBC170031E6BC = {
+			isa = PBXGroup;
+			children = (
+				0B401C5820BBBC170031E6BC /* TrackLocation */,
+				0B401C5720BBBC170031E6BC /* Products */,
+				E8503274451B05710B4BD056 /* Pods */,
+				F2EDB009092B50CE346BDD50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B401C5720BBBC170031E6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C5620BBBC170031E6BC /* TrackLocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B401C5820BBBC170031E6BC /* TrackLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0B171A6520BD234700FC7E5F /* Resources */,
+				0B401C8120BC0B830031E6BC /* GoogleService-Info.plist */,
+				0B401C7A20BBCD030031E6BC /* TrackLocation-Bridging-Header.h */,
+				0B401C7420BBC02E0031E6BC /* App Delegates */,
+				0B401C6F20BBC0250031E6BC /* View Controllers */,
+				0B401C5D20BBBC170031E6BC /* Main.storyboard */,
+				0B401C6020BBBC170031E6BC /* Assets.xcassets */,
+				0B401C6220BBBC170031E6BC /* LaunchScreen.storyboard */,
+				0B401C6520BBBC170031E6BC /* Info.plist */,
+			);
+			path = TrackLocation;
+			sourceTree = "<group>";
+		};
+		0B401C6F20BBC0250031E6BC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B171A6A20BD2BDF00FC7E5F /* Geotification.swift */,
+				0B401C7D20BBDE5D0031E6BC /* TrackLocation_Services.swift */,
+				0B401C8420BC0DF30031E6BC /* CreateUser_VC.swift */,
+				0B401C7720BBC0600031E6BC /* Map_VC.swift */,
+				0B171A6120BD105B00FC7E5F /* Tracklocation_VC.swift */,
+				0B171A6320BD223700FC7E5F /* AddGeofencing_VC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0B401C7420BBC02E0031E6BC /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C7520BBC02E0031E6BC /* AppDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		E8503274451B05710B4BD056 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46D4A2C3F2ACE2203ECEB186 /* Pods-TrackLocation.debug.xcconfig */,
+				AE8ADCEAF1EC0623335984B1 /* Pods-TrackLocation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2EDB009092B50CE346BDD50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C8920BC11C50031E6BC /* FTIndicator.framework */,
+				0B401C8720BC11C10031E6BC /* IQKeyboardManager.framework */,
+				0B401C8020BBF5170031E6BC /* PubNub.framework */,
+				0B401C7C20BBD74D0031E6BC /* HyperTrack.framework */,
+				19A483263EBDC3232C8E600D /* Pods_TrackLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B401C5520BBBC170031E6BC /* TrackLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B401C6820BBBC170031E6BC /* Build configuration list for PBXNativeTarget "TrackLocation" */;
+			buildPhases = (
+				CA148B82590014BF04DDD57F /* [CP] Check Pods Manifest.lock */,
+				0B401C5220BBBC170031E6BC /* Sources */,
+				0B401C5320BBBC170031E6BC /* Frameworks */,
+				0B401C5420BBBC170031E6BC /* Resources */,
+				68C945C8568590952EC582F4 /* [CP] Embed Pods Frameworks */,
+				93ABEAA39E032C55F3F69A1B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackLocation;
+			productName = TrackLocation;
+			productReference = 0B401C5620BBBC170031E6BC /* TrackLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B401C4E20BBBC170031E6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Krescent Global";
+				TargetAttributes = {
+					0B401C5520BBBC170031E6BC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0B401C5120BBBC170031E6BC /* Build configuration list for PBXProject "TrackLocation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B401C4D20BBBC170031E6BC;
+			productRefGroup = 0B401C5720BBBC170031E6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B401C5520BBBC170031E6BC /* TrackLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B401C5420BBBC170031E6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B401C6420BBBC170031E6BC /* LaunchScreen.storyboard in Resources */,
+				0B171A6720BD242100FC7E5F /* CurrentLocation@2x.png in Resources */,
+				0B171A6920BD267A00FC7E5F /* point.png in Resources */,
+				0B401C6120BBBC170031E6BC /* Assets.xcassets in Resources */,
+				0B401C8220BC0B840031E6BC /* GoogleService-Info.plist in Resources */,
+				0B401C5F20BBBC170031E6BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68C945C8568590952EC582F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrackLocation/Pods-TrackLocation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackLocation/Pods-TrackLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93ABEAA39E032C55F3F69A1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrackLocation/Pods-TrackLocation-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackLocation/Pods-TrackLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA148B82590014BF04DDD57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackLocation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B401C5220BBBC170031E6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B401C7620BBC02E0031E6BC /* AppDelegate.swift in Sources */,
+				0B401C8520BC0DF30031E6BC /* CreateUser_VC.swift in Sources */,
+				0B401C7E20BBDE5D0031E6BC /* TrackLocation_Services.swift in Sources */,
+				0B171A6B20BD2BDF00FC7E5F /* Geotification.swift in Sources */,
+				0B171A6420BD223700FC7E5F /* AddGeofencing_VC.swift in Sources */,
+				0B171A6220BD105B00FC7E5F /* Tracklocation_VC.swift in Sources */,
+				0B401C7820BBC0600031E6BC /* Map_VC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B401C5D20BBBC170031E6BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B401C5E20BBBC170031E6BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B401C6220BBBC170031E6BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B401C6320BBBC170031E6BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B401C6620BBBC170031E6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B401C6720BBBC170031E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B401C6920BBBC170031E6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D4A2C3F2ACE2203ECEB186 /* Pods-TrackLocation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z59YR659NL;
+				INFOPLIST_FILE = TrackLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krescent.trackLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "78255797-c667-43af-a9f9-fce7ff76df50";
+				PROVISIONING_PROFILE_SPECIFIER = trackLocation_distribution;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0B401C6A20BBBC170031E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8ADCEAF1EC0623335984B1 /* Pods-TrackLocation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z59YR659NL;
+				INFOPLIST_FILE = TrackLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krescent.trackLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "78255797-c667-43af-a9f9-fce7ff76df50";
+				PROVISIONING_PROFILE_SPECIFIER = trackLocation_distribution;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B401C5120BBBC170031E6BC /* Build configuration list for PBXProject "TrackLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B401C6620BBBC170031E6BC /* Debug */,
+				0B401C6720BBBC170031E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B401C6820BBBC170031E6BC /* Build configuration list for PBXNativeTarget "TrackLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B401C6920BBBC170031E6BC /* Debug */,
+				0B401C6A20BBBC170031E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B401C4E20BBBC170031E6BC /* Project object */;
+}
